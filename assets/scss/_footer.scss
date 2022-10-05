@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+# main-footer
+--------------------------------------------------------------*/
+.main-footer{
+  padding: 15px 0px;
+  background-color: #7f454d;
+  .footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media only screen and (max-width: 767px) {
+     display: block;
+     text-align: center;
+    }
+  }
+  .legal{
+    p{
+      font-size: 15px;
+      color: $bg-white;
+      @media only screen and (max-width: 767px) {
+       font-size: 14px;
+      }
+    }
+  }
+  .social{
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 767px) {
+     justify-content: center;
+     margin-top: 6px;
+    }
+    p{
+      font-size: 15px;
+      color: $secondary-color;
+      margin-right: 7px;
+      @media only screen and (max-width: 767px) {
+       font-size: 14px;
+      }
+    }
+    img{
+      height: 30px;
+    }
+  }
+}

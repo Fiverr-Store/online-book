@@ -1,0 +1,107 @@
+/*--------------------------------------------------------------
+# slider-sec
+--------------------------------------------------------------*/
+.slider-sec{
+  padding: 60px 0px;
+  background-color: $bg-white;
+  .swiper-slide{
+    height: auto;
+  }
+  .books-single{
+    background-color: $bg-white;
+    border: 1px solid #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    height: 100%;
+    .book-img{
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      background-color: #dedddd;
+      @media only screen and (max-width: 767px) {
+       height: 180px;
+      }
+      @media only screen and (max-width: 482px) {
+       height: 150px;
+      }
+    }
+  }
+  .book-text{
+    padding: 15px 15px 15px 15px ;
+    h2{
+      font-size: 17px;
+      line-height: 1;
+      color: $bg-black;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 15px;
+      line-height: 1.3;
+    }
+    small{
+      display: block;
+      width: 100%;
+      line-height: 1.3;
+    }
+  }
+  .book-cart{
+    padding: 0px 15px 15px 15px;
+    margin-top: auto;
+  }
+  .btn-cat{
+    display: block;
+    text-decoration: none;
+    border: 0;
+    width: 100%;
+    padding: 8px 20px;
+  background-color: #399B9E;
+  color: $bg-white;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all .2s ease-in;
+  &:hover{
+    color: $bg-white;
+    background-color: $primary-color;
+  }
+  }
+}
+
+
+/*--------------------------------------------------------------
+# swiper-btns
+--------------------------------------------------------------*/
+.swiper-btns{
+  text-align: end;
+  margin-bottom: 16px;
+  .btn-cm{
+    &:not(:last-child) {
+    margin-right: 6px;
+    }
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: $primary-color;
+    border: 1px solid #c3c3c3;
+    font-size: 20px;
+    outline: none;
+    &.btn-left{
+      i{
+        position: relative;
+        right: 1px;
+      }
+    }
+    &.btn-right{
+      i{
+        position: relative;
+        left: 1px;
+      }
+    }
+  }
+}
