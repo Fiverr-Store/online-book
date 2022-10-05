@@ -579,7 +579,10 @@ Intro setions style
 }
 
 .hero-contact {
-  padding: 130px 0 80px;
+  padding: 150px 0 60px;
+  @media only screen and (max-width: 767px) {
+   padding: 135px 0 70px;
+  }
 }
 .hero-contact h1, .hero-contact p {
   color: #fff;
@@ -1477,7 +1480,7 @@ Template responsive style. Must be bottom into css file.
   .hero-contact {
     background-attachment: scroll !important;
     background-size: cover !important;
-    padding: 100px 0;
+    // padding: 100px 0;
     text-align: center;
   }
   .hero-contact .video-link i {
