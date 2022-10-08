@@ -48,11 +48,11 @@
    */
      new Swiper('.first-slider', {
       speed: 600,
-       loop: true,
+      //  loop: true,
       //  grabCursor: true,
       autoplay: {
         delay: 4000,
-        disableOnInteraction: false
+        disableOnInteraction: true
       },
       slidesPerView: '1',
       // effect: "fade",
