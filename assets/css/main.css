@@ -293,8 +293,7 @@ h6 a {
 }
 
 .pattern-bg {
-  background-image: url("../images/cta/pattern.png");
-  background-repeat: repeat;
+  background-color: #eee;
 }
 
 a, a:hover, a:focus, button:hover, button:focus {
@@ -732,10 +731,6 @@ span.dropdown-toggle {
 .dropdown-menu > li > a {
   padding: 9px 20px;
   text-transform: capitalize;
-}
-
-.portfolio-showcase {
-  border-bottom: 5px solid #f06b6b;
 }
 
 /*
@@ -1829,7 +1824,6 @@ Template responsive style. Must be bottom into css file.
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 12px 0;
-  padding-top: 15px;
 }
 @media only screen and (max-width: 991px) {
   .navbar {
@@ -2043,13 +2037,13 @@ Template responsive style. Must be bottom into css file.
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 @media only screen and (max-width: 991px) {
   .hero-area {
-    padding-top: 105px;
-    padding-bottom: 45px;
+    padding-top: 90px;
+    padding-bottom: 30px;
   }
 }
 .hero-area .hero-text {
@@ -2314,7 +2308,7 @@ Template responsive style. Must be bottom into css file.
   padding: 15px 15px 15px 15px;
 }
 .slider-sec .book-text h2 {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1;
   color: #000000;
   margin-bottom: 10px;
@@ -2395,7 +2389,7 @@ Template responsive style. Must be bottom into css file.
 --------------------------------------------------------------*/
 .main-footer {
   padding: 15px 0px;
-  background-color: #7f454d;
+  background-color: #000000;
 }
 .main-footer .footer-flex {
   display: -webkit-box;
